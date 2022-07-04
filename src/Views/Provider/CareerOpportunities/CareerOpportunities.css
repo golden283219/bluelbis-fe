@@ -1,0 +1,13 @@
+.care-deeply {
+    list-style: none;
+  }
+  .care-deeply li::before {
+    content: "";
+    display: inline-block;
+    border-radius: 100%;
+    margin-right: 15px;
+    margin-left: -30px;
+    background-image: url(../../../Assets/Img/Iconcircle.png);
+    height: 16px;
+    width: 15px;
+  }

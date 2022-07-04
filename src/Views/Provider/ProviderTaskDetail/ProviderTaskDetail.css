@@ -1,0 +1,56 @@
+.image-gallery-slides {
+  white-space: wrap;
+  text-align: left;
+}
+
+.image-gallery-thumbnails .image-gallery-thumbnails-container {
+  cursor: pointer;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.image-gallery-thumbnail.active {
+  outline: none;
+  border: none;
+  display: inline-block;
+  transition: border 0.3s ease-out;
+  width: 100px;
+  background: transparent;
+  padding: 0;
+}
+
+.image-gallery-thumbnail {
+  display: inline-block;
+  transition: border 0.3s ease-out;
+  width: 100px;
+  background: transparent;
+  padding: 0;
+}
+
+.image-gallery-thumbnail:hover {
+  outline: none;
+  border: none;
+}
+
+.image-gallery-svg {
+ display: none;
+}
+.image-gallery-left-nav{
+  background-image: url(../../../Assets/Img/Group23.png) !important;
+background-repeat: no-repeat;
+left: 10px;
+}
+.image-gallery-right-nav {
+  background-image: url(../../../Assets/Img/Group24.png) !important;
+background-repeat: no-repeat;
+right: 10px;
+}
+
+.image-gallery-left-nav, .image-gallery-right-nav {
+  padding: 15px 15px;
+}
+
+.image-gallery-play-button,
+.image-gallery-fullscreen-button {
+  display: none;
+}

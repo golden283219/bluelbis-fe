@@ -1,0 +1,12 @@
+.p_l_r_60 {
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .p_l_r_0_Mob {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}

@@ -1,0 +1,29 @@
+.notablePadding td > div {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 0px;
+  }
+
+  .table > :not(:first-child) {
+    border-top: 1px solid #e8e9e9;
+  }
+  .table > :not(caption) > * > * {
+    padding: 13px 10px;
+  }
+
+  .quoteTable table tbody tr > td:first-child {
+    width: 36%;
+  }
+
+  .quoteTable tbody tr > td:last-child {
+    min-width: 80px;
+  }
+
+  .noBorder td,
+.noBorder th,
+.noBorder tr {
+  border: none !important;
+}
+.tablew100{
+    width: 100px !important;
+}

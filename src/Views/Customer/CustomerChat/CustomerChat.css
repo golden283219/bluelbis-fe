@@ -1,0 +1,117 @@
+.wrapperBlue input:checked ~ label {
+  background: #97b4b91a;
+  border-color: var(--colorBlue) !important;
+  box-shadow: 0px 0 20px 0px rgba(89, 207, 213, 0.39);
+  -webkit-box-shadow: 0 0 8px 1px #47bcd08a;
+}
+.wrapperBlue input:checked ~ label .checked {
+  display: block;
+}
+
+.dashed_border {
+  border-bottom: 1px dashed #e8e9e9;
+}
+
+.dotted_borderTop {
+  border-top: 1px dashed #e8e9e9;
+}
+
+.d-b-right {
+  border-right: 1px dashed #e8e9e9;
+}
+
+.borBottomRed {
+  border-bottom: 3px solid var(--colorRed);
+}
+
+.borBottomGreen {
+  border-bottom: 3px solid var(--colorGreen);
+}
+
+.chat-box-name:hover {
+  background-color: #f7f8f9;
+}
+.w32 {
+  height: 32px;
+  width: 32px;
+}
+.chat-section {
+  min-height: 75vh;
+}
+.chat-text {
+  width: auto;
+  height: auto;
+}
+
+.chat-text-msg-area {
+  min-height: 200px;
+}
+
+.chat-input {
+  height: 45px;
+  width: 100%;
+  border-radius: 25px;
+  border: 1px solid #e8e9e9;
+}
+
+.chat-input:focus {
+  border-color: #47bbd0 !important;
+  background-color: #ecfbfe !important;
+  -webkit-box-shadow: 0px 1px 1px rgba(71, 187, 208, 0.3) !important;
+  box-shadow: 0px 1px 1px rgba(71, 187, 208, 0.3) !important;
+}
+
+.send-icon svg {
+  height: 40px;
+  width: 40px;
+}
+.chat_box_p {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+}
+.chat_p {
+  overflow-y: auto;
+  height: 400px;
+  /* padding: 0 15px; */
+  padding-bottom: 60px;
+}
+
+.w10 {
+  width: 5%;
+}
+.w90 {
+  width: 95%;
+}
+
+.chat-payment svg {
+  width: 15px;
+  height: 20px;
+}
+
+.one-time-payment{
+  /* border-top: 1px solid #E8E9E9;
+  border-left: 1px solid #E8E9E9;
+  border-right: 1px solid #E8E9E9;
+  border-bottom: 1px solid #E8E9E9; */
+  border: 1px solid #E8E9E9;
+}
+.borderLeftRight{
+  border-left: 1px solid #E8E9E9;
+  border-right: 1px solid #E8E9E9;
+}
+
+.borderLeftRightBottom{
+  border-left: 1px solid #E8E9E9;
+  border-right: 1px solid #E8E9E9;
+  border-bottom: 1px solid #E8E9E9; 
+}
+
+@media only screen and (max-width: 767px) {
+  .w10 {
+    width: 12%;
+  }
+  .w90 {
+    width: 88%;
+  }
+}

@@ -1,0 +1,29 @@
+.borderYellow {
+  border: 1px solid var(--colorYellow);
+}
+
+.borderRed {
+  border: 1px solid var(--colorRed);
+}
+
+.borderGreen {
+  border: 1px solid var(--colorGreen);
+}
+
+.radius15 {
+  border-radius: 15px;
+}
+
+.bchat svg {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.bchat svg path {
+  fill: var(--colorBlue);
+}
+
+.bor-left{
+  height: 48px;
+  border-left: 2px solid var(--colorBlue);
+}

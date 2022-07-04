@@ -1,0 +1,45 @@
+.b-cards{
+    min-height: 360px;
+    max-height: auto;
+}
+
+.earning-cards{
+    min-height: 200px;
+    max-height: auto;
+}
+
+.img-provider{
+    width: 55%;
+}
+
+.provider-section{
+    width: 40%;
+}
+
+@media only screen and (max-width: 767px) {
+    .create-account-section{
+        flex-direction: column;
+    }
+    .img-provider{
+        width: 100%;
+    }
+    
+    .provider-section{
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .create-account-section{
+        flex-direction: column;
+    }
+    .img-provider{
+        width: 100%;
+    }
+    
+    .provider-section{
+        width: 100%;
+        padding: 20px;
+    }
+}

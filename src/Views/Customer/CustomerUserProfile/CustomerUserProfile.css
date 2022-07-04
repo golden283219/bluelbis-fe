@@ -1,0 +1,8 @@
+.w95{
+    height: 95px;
+    width: 95px;
+}
+
+.user-email svg path{
+    fill: var(--colorBlue);
+}
